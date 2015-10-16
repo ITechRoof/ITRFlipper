@@ -1,6 +1,8 @@
 # ITRFlipper
 Flipboard animation
 
+<img src="https://github.com/ITechRoof/ITRFlipper/blob/master/Demo.png" width = "320" height="568" "alt="">
+
 ## Requirements
 * Xcode 6 or higher
 * Apple LLVM compiler
