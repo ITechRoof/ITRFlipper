@@ -32,6 +32,7 @@
     _secondViewController = [storyboard instantiateViewControllerWithIdentifier:NSStringFromClass(SecondViewController.class)];
     _thirdViewController = [storyboard instantiateViewControllerWithIdentifier:NSStringFromClass(ThirdViewController.class)];
     
+    //flipper view
     itrFlipper = [[ITRFlipper alloc] initWithFrame:self.view.bounds];
     [itrFlipper setBackgroundColor:[UIColor clearColor]];
     itrFlipper.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
@@ -40,6 +41,7 @@
     [self.view addSubview:itrFlipper];
 }
 
+#pragma ITRFlipper datasource
 - (NSInteger) numberOfPagesinFlipper:(ITRFlipper *)pageFlipper {
     return 10;
 }
