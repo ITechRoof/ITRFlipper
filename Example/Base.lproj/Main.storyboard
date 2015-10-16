@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-116.5" y="340.5"/>
+        </scene>
+        <!--First View Controller-->
+        <scene sceneID="1LJ-zQ-LHP">
+            <objects>
+                <viewController storyboardIdentifier="FirstViewController" id="5bW-aW-JBP" customClass="FirstViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="U6B-hf-rfI"/>
+                        <viewControllerLayoutGuide type="bottom" id="PZj-Kj-73g"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TLL-aT-d7q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="OLR-iA-bkq">
+                                <rect key="frame" x="51" y="36" width="272" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="OW1-gp-pXz"/>
+                                    <constraint firstAttribute="width" secondItem="OLR-iA-bkq" secondAttribute="height" multiplier="17:10" id="axQ-Bg-XKG"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfN-P0-fM5">
+                                <rect key="frame" x="16" y="212" width="343" height="439"/>
+                                <mutableString key="text">Deeplinking is becoming most important tool to enhance user interaction. Have you ever got interested by the shopping item displayed on the Facebook page or elsewhere and got into decision to buy it. But by clicking on that item, it takes to a huge collection of items where you lost your item into this ocean. Finally got frustrated shopping and gave up. Yeah I am sure, it happens quite often.        Deeplinking is becoming most important tool to enhance user interaction. Have you ever got interested by the shopping item displayed on the Facebook page or elsewhere and got into decision to buy it. But by clicking on that item, it takes to a huge collection of items where you lost your item into this ocean. Finally got frustrated shopping and gave up. Yeah I am sure, it happens quite often.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91764705879999997" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="vfN-P0-fM5" firstAttribute="top" secondItem="OLR-iA-bkq" secondAttribute="bottom" constant="16" id="3Dr-LZ-vGo"/>
+                            <constraint firstItem="vfN-P0-fM5" firstAttribute="leading" secondItem="TLL-aT-d7q" secondAttribute="leading" constant="16" id="AzY-z8-P0N"/>
+                            <constraint firstAttribute="trailing" secondItem="vfN-P0-fM5" secondAttribute="trailing" constant="16" id="MdF-Tc-P6R"/>
+                            <constraint firstItem="OLR-iA-bkq" firstAttribute="top" secondItem="U6B-hf-rfI" secondAttribute="bottom" constant="16" id="VN7-HS-jYF"/>
+                            <constraint firstItem="PZj-Kj-73g" firstAttribute="top" secondItem="vfN-P0-fM5" secondAttribute="bottom" constant="16" id="Ytm-fd-5fH"/>
+                            <constraint firstItem="OLR-iA-bkq" firstAttribute="centerX" secondItem="TLL-aT-d7q" secondAttribute="centerX" id="aeh-Mr-Fdg"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cjg-PZ-M9F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="307.5" y="340.5"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="GTH-fr-pmC">
+            <objects>
+                <viewController storyboardIdentifier="SecondViewController" id="OUm-cV-EmL" customClass="SecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1vS-hu-aDm"/>
+                        <viewControllerLayoutGuide type="bottom" id="6tx-UJ-jzW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lEV-nL-ZGw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oVU-nY-g7N">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.71690635930275182" green="0.97213721003553766" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="oVU-nY-g7N" firstAttribute="leading" secondItem="lEV-nL-ZGw" secondAttribute="leading" id="Fr4-IW-Uqf"/>
+                            <constraint firstItem="6tx-UJ-jzW" firstAttribute="top" secondItem="oVU-nY-g7N" secondAttribute="bottom" id="He9-GV-LZ3"/>
+                            <constraint firstItem="oVU-nY-g7N" firstAttribute="top" secondItem="1vS-hu-aDm" secondAttribute="bottom" id="M8l-YV-IX2"/>
+                            <constraint firstAttribute="trailing" secondItem="oVU-nY-g7N" secondAttribute="trailing" id="ijw-aC-FdH"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ho8-K3-2i8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="726.5" y="340.5"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="68D-2g-5ri">
+            <objects>
+                <viewController storyboardIdentifier="ThirdViewController" id="Jvg-ka-55F" customClass="ThirdViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="r13-3y-2Ls"/>
+                        <viewControllerLayoutGuide type="bottom" id="lAo-hA-jcD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rgc-E1-HQD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Et-CM-b42">
+                                <rect key="frame" x="16" y="60" width="343" height="230"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="230" id="XlP-DX-KyR"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="89p-Tf-Jm0">
+                                <rect key="frame" x="16" y="306" width="343" height="230"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="230" id="hX5-iN-ZbX"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.85244775995711153" green="1" blue="0.64927709175036763" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="89p-Tf-Jm0" firstAttribute="centerX" secondItem="rgc-E1-HQD" secondAttribute="centerX" id="8n1-55-Qd7"/>
+                            <constraint firstItem="89p-Tf-Jm0" firstAttribute="top" secondItem="7Et-CM-b42" secondAttribute="bottom" constant="16" id="KsW-M8-YSk"/>
+                            <constraint firstItem="89p-Tf-Jm0" firstAttribute="leading" secondItem="rgc-E1-HQD" secondAttribute="leading" constant="16" id="R2c-At-L26"/>
+                            <constraint firstItem="7Et-CM-b42" firstAttribute="centerX" secondItem="rgc-E1-HQD" secondAttribute="centerX" id="fb0-D2-tb8"/>
+                            <constraint firstItem="7Et-CM-b42" firstAttribute="leading" secondItem="rgc-E1-HQD" secondAttribute="leading" constant="16" id="iZq-CZ-Rjz"/>
+                            <constraint firstItem="7Et-CM-b42" firstAttribute="top" secondItem="r13-3y-2Ls" secondAttribute="bottom" constant="40" id="u94-dK-i0e"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S2G-HC-wOd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1148.5" y="340.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image" width="136" height="80"/>
+    </resources>
+</document>
