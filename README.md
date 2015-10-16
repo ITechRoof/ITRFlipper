@@ -72,6 +72,7 @@ Create and add flipper view as subview to your container. Set datasource to the 
     [self.view addSubview:itrFlipper];
 ```
 numberOfPagesinFlipper: - returns the number of pages in the flip view.
+
 viewForPage: inFlipper: - returns the view corresponding to the page.
 
 
