@@ -73,8 +73,27 @@ Create and add flipper view as subview to your container. Set datasource to the 
 ```
 numberOfPagesinFlipper: - returns the number of pages in the flip view.
 
+``` objective-c
+- (NSInteger) numberOfPagesinFlipper:(ITRFlipper *)pageFlipper {
+    return 10;
+}
+
+```
 viewForPage: inFlipper: - returns the view corresponding to the page.
 
+``` objective-c
+- (UIView *) viewForPage:(NSInteger) page inFlipper:(ITRFlipper *) flipper {
+    
+    if(page % 3 == 0){
+        return _firstViewController.view;
+    }else if(page % 3 == 1){
+        return _secondViewController.view;
+    }else{
+        return _thirdViewController.view;
+    }
+}
+
+```
 
 ## Contact
 
