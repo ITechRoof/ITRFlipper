@@ -193,12 +193,9 @@
     
     animating = NO;
     
-    if (setNextViewOnCompletion) {
+    if (setNextViewOnCompletion && _nextView) {
         [_currentView removeFromSuperview];
         _currentView = _nextView;
-        _nextView = Nil;
-    } else {
-        [_nextView removeFromSuperview];
         _nextView = Nil;
     }
     
